@@ -49,18 +49,31 @@ app.get('/api', (req, res) => {
   })
 });
 
+// app.get('/api/profile', (req, res) => {
+//   res.json({
+//     'name': 'John',
+//     'homeCountry': 'Winterfell',
+//     'degreeProgram': 'Night\'s Watch',//informatics or CSE.. etc
+//     'email': 'john@got.com',
+//     'deployedURLLink': '',//leave this blank for the first exercise
+//     'apiDocumentationURL': '', //leave this also blank for the first exercise
+//     'currentCity': 'The Wall',
+//     'hobbies': ['Fight White Walkers']
+
+//   });
+// });
 app.get('/api/profile', (req, res) => {
   res.json({
-    'name': 'John',
-    'homeCountry': 'Winterfell',
-    'degreeProgram': 'Night\'s Watch',//informatics or CSE.. etc
-    'email': 'john@got.com',
+    'name': 'Supergiovane',
+    'homeCountry': 'Oklahoma',
+    'degreeProgram': 'Analcolico Moro',//informatics or CSE.. etc
+    'email': 'cattobleppa@panino.it',
     'deployedURLLink': '',//leave this blank for the first exercise
     'apiDocumentationURL': '', //leave this also blank for the first exercise
-    'currentCity': 'The Wall',
-    'hobbies': ['Fight White Walkers']
+    'currentCity': 'Argento Vivo',
+    'hobbies': ['Argento vivo', 'Sbiancate', 'Figu', 'Oklahoma', 'Sigarette', 'Puttano', 'Pachugo', 'Garelli', 'Smarmittare', 'Figa', 'Figa pelosa', 'Figlio di puttana', 'Porco dito']
 
-  });
+  })
 });
 /*
  * Get All books information
