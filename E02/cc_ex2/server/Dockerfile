@@ -8,7 +8,7 @@ RUN mkdir -p /usr/src/server
 WORKDIR /usr/src/server
 
 # Copy dependency list and installing dependencies
-COPY package.json /usr/srv/serer/
+COPY package.json /usr/srv/server/
 RUN npm install
 
 # Now copy the rest. This is delayed because if we change 
